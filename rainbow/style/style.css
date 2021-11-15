@@ -1,0 +1,32 @@
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: cadetblue;
+    width: 110px;
+    height: 50px;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    position: relative;
+    top: 50%;
+    left: 50px;
+    display: inline-block;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 7px;
+    margin: 5px;
+}
